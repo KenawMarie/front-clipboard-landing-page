@@ -60,3 +60,114 @@ h1,h2,h3{
     padding-top: 7em;
     padding-bottom: 3.5em;
 }
+.container{
+    width: 52%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.container p:first-of-type{  
+    margin-right: 2em;
+    padding: 1em 0 2.5em;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 10em;
+}
+
+.ios-btn{
+    background-color: var(--Green-500);
+    border: 2px solid var(--Green-500);
+    color: #fff; 
+    padding: 0.8em 2.2em; 
+    border-radius: 30px;
+}
+.mac-btn{
+    background-color: var(--Blue-100);
+    border: 2px solid var(--Blue-100);
+    color: #fff; 
+    padding: 0.8em 2em;  
+    border-radius: 30px;
+}
+
+.computer{
+    width: 90%;
+    margin: 4em 0 10em;
+    display: flex;
+    gap: 7rem;
+}
+
+.computer img{
+    margin-left: -2em;
+}
+ 
+.computer-text h3{
+    margin: 3em 0 0.5em;
+}
+
+.devices{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.devices p{
+    margin-right: 7em;
+    margin-bottom: 7em;
+}
+
+.workflow{
+    width: 85%;
+    margin: 0 auto; 
+    text-align: center;
+} 
+
+.workflow>p{
+    margin: 0.5em 0 5em;
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+}
+
+.tools>div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.tools img{
+    margin: 0 auto;
+}
+
+.tools h3{
+    margin: 2em 0 1em;
+}
+
+.blacklist{
+    flex-basis: 523px;
+}
+
+.blacklist p{
+    margin-top: -0.55em;
+}
+
+.preview{
+    flex-basis: 533px; 
+}
+
+.logos{
+    width: 85%;
+    display: flex;
+    margin: 7em auto;
+    justify-content: space-between;
+}
