@@ -92,7 +92,7 @@ h1,h2,h3{
     border: 2px solid var(--Green-500);
     color: var(--white); 
     padding: 0.8em 2.2em; 
-    border-radius: 30px;
+    border-radius: 1.875rem;
 }
 
 .ios-btn:hover,
@@ -107,7 +107,7 @@ h1,h2,h3{
     border: 2px solid var(--Blue-100);
     color: var(--white); 
     padding: 0.8em 2em;  
-    border-radius: 30px;
+    border-radius: 1.875rem;
 }
 
 .mac-btn:hover,
@@ -145,8 +145,8 @@ h1,h2,h3{
 
 .workflow{
     width: 85%;
-    margin: 0 auto; 
-    text-align: center;
+    margin:7em auto 0; 
+    text-align: center; 
 } 
 
 .workflow>p{
@@ -173,7 +173,7 @@ h1,h2,h3{
 }
 
 .blacklist{
-    flex-basis: 523px;
+    flex-basis: 32.6875rem;
 }
 
 .blacklist p{
@@ -181,11 +181,11 @@ h1,h2,h3{
 }
 
 .snippet{
-    flex-basis: 520px; 
+    flex-basis: 32.5rem; 
 }
 
  .preview{
-    flex-basis: 550px;
+    flex-basis: 34.375rem;
  }
 
 .logos{
@@ -209,8 +209,8 @@ footer{
 }
 
 .footer>svg{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     margin-right: 8em;
 }
 
@@ -250,7 +250,7 @@ svg:hover{
 }
 
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:61.25rem) {
     .btns{
         flex-direction: column;
     }
@@ -294,7 +294,7 @@ svg:hover{
     }
 }
 
-@media screen and (max-width:668px) {
+@media screen and (max-width:41.75rem) {
     .header{
         background-image: linear-gradient(to bottom, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 95%,rgba(255,255,255,1) 100%), url(./images/bg-header-mobile.png);
     }
@@ -345,7 +345,7 @@ svg:hover{
     }
 }
 
-@media screen and (max-width:458px) {
+@media screen and (max-width:28.625rem) {
     .container{
         width: 90%; 
     }
